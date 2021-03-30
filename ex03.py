@@ -4,3 +4,4 @@ d = int(input('Informe por quantos dias ele foi alugado: '))
 kmp = float(input('Informe quantos Km o carro percorreu: '))
 vf = (d * 60) + (kmp * 0.15)
 print('O valor total a se pagar é de R${:.2f}'.format(vf))
+
